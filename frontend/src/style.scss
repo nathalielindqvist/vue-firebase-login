@@ -1,0 +1,47 @@
+.error {
+    color: red;
+    font-size: 18px;
+}
+
+input {
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    font-size: 21px;
+}
+
+.submit {
+    width: 400px;
+    height: 75px;
+    font-size: 100%;
+}
+
+.secret-text {
+    margin: auto;
+    width: 50%;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px;
+  }
+
+  #nav {
+    padding: 30px;
+
+    a {
+      font-weight: bold;
+      color: #2c3e50;
+
+      &.router-link-exact-active {
+        color: #42b983;
+      }
+    }
+  }
+  .log {
+      text-align: left;
+  }
