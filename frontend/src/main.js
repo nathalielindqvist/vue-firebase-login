@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
 import axios from 'axios'
 import firebase from 'firebase/app'
 import TopHeader from './components/TopHeader'
@@ -30,7 +29,6 @@ Vue.component('top-header', TopHeader)
     if (!app) {
       app = new Vue({
         router,
-        store,
         render: h => h(App)
       }).$mount('#app')
     }
